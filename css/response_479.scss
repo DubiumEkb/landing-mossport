@@ -1,0 +1,213 @@
+@media (max-width: 479px) {
+    .cont {
+        padding: 0 20px;
+    }
+
+    .btn {
+        &-primary {
+            padding: 17px 30px 17px 30px;
+        }
+    }
+
+    header.header {
+        .logo-page img {
+            width: 77px;
+        }
+
+        .logo-home .icon {
+            width: 80px;
+            height: 24px;
+        }
+
+        .department-logo img {
+            width: 90px;
+        }
+
+        .btn-visually-impaired {
+            .icon {
+                margin-right: 10px;
+                width: 25px;
+                height: 16px;
+            }
+            span {
+                font-size: 10px;
+            }
+        }
+    }
+
+    .main {
+        .home {
+            &-block {
+                height: 320px;
+                margin-top: 30px;
+                &-text h1.title {
+                    font-size: 42px;
+                }
+
+                .bq-description {
+                    font-size: 14px;
+                }
+            }
+
+            .link-back .icon {
+                width: 30px;
+                height: 10px;
+                margin-right: 7px;
+            }
+            &-right {
+                &--image {
+                    top: -290px;
+                    img {
+                        margin-left: -33%;
+                        width: 620px;
+                        height: 410px;
+                        object-position: center;
+                    }
+                }
+            }
+        }
+
+        .about {
+            &__description {
+                &-title {
+                    margin-top: 20px;
+                    padding-bottom: 30px;
+                    margin-bottom: 28px;
+                }
+            }
+        }
+
+        .benefit {
+            .flexbox {
+                .column {
+                    margin-right: 70px;
+                }
+            }
+        }
+
+        .course {
+            h4.subheader {
+                font-size: 24px;
+                line-height: 26px;
+                margin-top: 10px;
+            }
+        }
+
+        .curator {
+            &-list-sert {
+                li {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .symptoms {
+            &__item {
+                padding-right: 0px;
+                margin-bottom: 14px;
+                &--label {
+                    font-size: 16px;
+                }
+            }
+
+            &-footer {
+                flex-direction: column;
+                .icon {
+                    width: 71px;
+                    height: 72px;
+                    margin-bottom: 10px;
+                }
+
+                &--text {
+                    margin-left: 0;
+                    &.pc-version {
+                        display: none;
+                    }
+
+                    &.mobile-version span {
+                        white-space: normal;
+                    }
+
+                    span {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .reviews {
+            .swiper-slide {
+                max-width: 300px;
+                padding: 0 10px;
+                .slide__item {
+                    .column {
+                        &-left {
+                            p {
+                                padding: 0px 0px 10px;
+                            }
+                        }
+                        &-right {
+                            margin-top: 10px;
+                        }
+                    }
+                    padding: 20px;
+                    margin-top: 7px;
+                    border-radius: 15px;
+                    &:before {
+                        display: none;
+                    }
+                }
+            }
+            .swiper {
+                &-prev {
+                    width: 48px;
+                    margin-right: 10px;
+                }
+                svg {
+                    width: 48px;
+                }
+                &-next {
+                    width: 48px;
+                }
+            }
+            margin-bottom: 36px;
+        }
+
+        .registration {
+            p {
+                font-size: 15px;
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    h2.title {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    h3.title {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    h4.subheader {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .btn-link {
+        font-size: 13px;
+    }
+
+    footer.footer {
+        .logo,
+        .logo img,
+        .department,
+        .department img {
+            height: 40px;
+        }
+    }
+}

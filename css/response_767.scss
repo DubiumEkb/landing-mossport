@@ -1,0 +1,261 @@
+@media (max-width: 767px) {
+	.header {
+		.logo-page img {
+			width: 90px;
+		}
+
+		.logo-home .icon {
+			width: 120px;
+			height: 33px;
+		}
+
+		.department-logo {
+			padding-right: 0px;
+			img {
+				width: 130px;
+			}
+		}
+
+		.btn-visually-impaired {
+			margin-top: 20px;
+		}
+	}
+
+	.main {
+		.home {
+			> .flexbox {
+				flex-wrap: wrap;
+			}
+			&-block {
+				margin-top: -23px;
+				flex: 0 0 100%;
+				max-width: 100%;
+				.link-back {
+					margin-top: 0;
+				}
+			}
+			&-right {
+				&--image {
+					top: -450px;
+				}
+			}
+		}
+
+		.about {
+			> .flexbox {
+				flex-direction: column;
+			}
+
+			&__image {
+				flex: 0 0 100%;
+				max-width: 100%;
+				text-align: center;
+				&--image {
+					width: 260px;
+				}
+			}
+
+			&__description {
+				flex: 0 0 100%;
+				max-width: 100%;
+				&-column:last-child {
+					margin: 49px auto 0;
+					display: block;
+				}
+			}
+
+			.btn-primary {
+				display: block;
+				margin: 49px auto 0px;
+			}
+			margin-bottom: 70px;
+		}
+
+		.clear {
+			img {
+				object-fit: cover;
+				height: 420px;
+			}
+		}
+
+		.course {
+			h4.subheader {
+				font-size: 30px;
+				line-height: 32px;
+
+				margin-top: 20px;
+			}
+
+			&__image--image {
+				max-width: 260px;
+			}
+		}
+
+		.symptoms {
+			&__items {
+				columns: 1;
+				margin-bottom: 20px;
+			}
+		}
+
+		.useful {
+			.column {
+				flex: 0 0 100%;
+				max-width: 100%;
+				&:last-child {
+					margin-top: 25px;
+				}
+			}
+		}
+
+		.curator {
+			.column {
+				&:first-child {
+					flex: 0 0 100%;
+					max-width: 100%;
+				}
+			}
+
+			.bq-description {
+				&:before {
+					height: 160px;
+				}
+
+				font-size: 16px;
+
+				&:after {
+					height: 160px;
+				}
+			}
+		}
+
+		.reviews {
+			&-slider {
+				margin-top: -100px;
+			}
+			h3.title {
+				width: 50%;
+			}
+			.swiper {
+				&-wrapper {
+					margin-top: 55px;
+				}
+				&-prev {
+					width: 60px;
+					margin-right: 30px;
+				}
+				&-next {
+					width: 60px;
+				}
+				svg {
+					width: 60px;
+				}
+				&-slide {
+					max-width: 460px;
+				}
+			}
+
+			.slide__item {
+				&:before {
+					top: 6%;
+					bottom: 6%;
+					right: -4%;
+					left: -4%;
+					border-radius: 4%/50%;
+				}
+				padding: 40px 15px 33px;
+				border-radius: 20%/7%;
+				.column {
+					&-left {
+						flex: 0 0 100%;
+						max-width: 100%;
+					}
+
+					&-right {
+						flex: 0 0 100%;
+						max-width: 100%;
+						p {
+							font-size: 14px;
+						}
+					}
+				}
+			}
+			margin-bottom: 60px;
+		}
+
+		.registration {
+			.column {
+				flex: 0 0 100%;
+				max-width: 100%;
+				&:last-child {
+					margin-top: 20px;
+				}
+			}
+		}
+	}
+
+	h3.title {
+		font-size: 32px;
+		line-height: 34px;
+	}
+
+	h4.subheader {
+		font-size: 30px;
+		line-height: 32px;
+	}
+
+	footer.footer {
+		.info {
+			padding: 44px 0 32px;
+			.title {
+				margin-bottom: 16px;
+			}
+		}
+
+		.location {
+			max-width: 100%;
+		}
+
+		.col_left {
+			display: flex;
+			width: 100%;
+			justify-content: space-between;
+			align-items: center;
+			align-content: center;
+			flex-wrap: wrap;
+		}
+
+		.socials {
+			width: 100%;
+			margin-top: 36px;
+		}
+
+		.logo {
+			margin: 0;
+		}
+
+		.logo,
+		.logo img {
+			height: 48px;
+		}
+
+		.department,
+		.department img {
+			height: 48px;
+		}
+
+		.department {
+			margin-top: 0;
+			align-self: flex-end;
+		}
+
+		.contacts {
+			width: 100%;
+			margin-top: 40px;
+		}
+
+		.bottom {
+			line-height: 16px;
+		}
+	}
+}

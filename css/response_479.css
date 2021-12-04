@@ -1,0 +1,156 @@
+@media (max-width: 479px) {
+  .cont {
+    padding: 0 20px;
+  }
+  .btn-primary {
+    padding: 17px 30px 17px 30px;
+  }
+  header.header .logo-page img {
+    width: 77px;
+  }
+  header.header .logo-home .icon {
+    width: 80px;
+    height: 24px;
+  }
+  header.header .department-logo img {
+    width: 90px;
+  }
+  header.header .btn-visually-impaired .icon {
+    margin-right: 10px;
+    width: 25px;
+    height: 16px;
+  }
+  header.header .btn-visually-impaired span {
+    font-size: 10px;
+  }
+  .main .home-block {
+    height: 320px;
+    margin-top: 30px;
+  }
+  .main .home-block-text h1.title {
+    font-size: 42px;
+  }
+  .main .home-block .bq-description {
+    font-size: 14px;
+  }
+  .main .home .link-back .icon {
+    width: 30px;
+    height: 10px;
+    margin-right: 7px;
+  }
+  .main .home-right--image {
+    top: -290px;
+  }
+  .main .home-right--image img {
+    margin-left: -33%;
+    width: 620px;
+    height: 410px;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .main .about__description-title {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 28px;
+  }
+  .main .benefit .flexbox .column {
+    margin-right: 70px;
+  }
+  .main .course h4.subheader {
+    font-size: 24px;
+    line-height: 26px;
+    margin-top: 10px;
+  }
+  .main .curator-list-sert li {
+    font-size: 14px;
+  }
+  .main .symptoms__item {
+    padding-right: 0px;
+    margin-bottom: 14px;
+  }
+  .main .symptoms__item--label {
+    font-size: 16px;
+  }
+  .main .symptoms-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .symptoms-footer .icon {
+    width: 71px;
+    height: 72px;
+    margin-bottom: 10px;
+  }
+  .main .symptoms-footer--text {
+    margin-left: 0;
+  }
+  .main .symptoms-footer--text.pc-version {
+    display: none;
+  }
+  .main .symptoms-footer--text.mobile-version span {
+    white-space: normal;
+  }
+  .main .symptoms-footer--text span {
+    font-size: 14px;
+  }
+  .main .reviews {
+    margin-bottom: 36px;
+  }
+  .main .reviews .swiper-slide {
+    max-width: 300px;
+    padding: 0 10px;
+  }
+  .main .reviews .swiper-slide .slide__item {
+    padding: 20px;
+    margin-top: 7px;
+    border-radius: 15px;
+  }
+  .main .reviews .swiper-slide .slide__item .column-left p {
+    padding: 0px 0px 10px;
+  }
+  .main .reviews .swiper-slide .slide__item .column-right {
+    margin-top: 10px;
+  }
+  .main .reviews .swiper-slide .slide__item:before {
+    display: none;
+  }
+  .main .reviews .swiper-prev {
+    width: 48px;
+    margin-right: 10px;
+  }
+  .main .reviews .swiper svg {
+    width: 48px;
+  }
+  .main .reviews .swiper-next {
+    width: 48px;
+  }
+  .main .registration p {
+    font-size: 15px;
+  }
+  .main .registration p br {
+    display: none;
+  }
+  h2.title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  h3.title {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  h4.subheader {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .btn-link {
+    font-size: 13px;
+  }
+  footer.footer .logo,
+  footer.footer .logo img,
+  footer.footer .department,
+  footer.footer .department img {
+    height: 40px;
+  }
+}
+/*# sourceMappingURL=response_479.css.map */

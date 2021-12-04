@@ -1,0 +1,174 @@
+@media (max-width: 1279px) {
+  .main .home {
+    margin-bottom: 60px;
+  }
+  .main .home-block {
+    height: 560px;
+  }
+  .main .home-right--image img {
+    margin-left: -8%;
+    width: 990px;
+    height: 690px;
+  }
+  .main .about__description-column {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .main .about__description-column:nth-child(2) {
+    margin-bottom: 20px;
+  }
+  .main .course .column-left {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .main .course .column-image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+    max-width: 40%;
+  }
+  .main .course .column-image img {
+    width: 100%;
+    height: 100%;
+  }
+  .main .course .column-right {
+    padding-left: 10px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .main .symptoms {
+    margin-bottom: 70px;
+  }
+  .main .symptoms__item {
+    padding-right: 10px;
+    margin-bottom: 20px;
+  }
+  .main .symptoms__item--label {
+    line-height: 130%;
+  }
+  .main .symptoms-footer--text {
+    margin-left: 15px;
+  }
+  .main .symptoms-footer--text span {
+    font-size: 16px;
+  }
+  .main .symptoms-footer--text span:first-child {
+    white-space: nowrap;
+  }
+  .main .useful {
+    padding-bottom: 60px;
+  }
+  .main .useful.ellipse:before {
+    top: -40px;
+  }
+  .main .useful p {
+    margin-bottom: 24px;
+  }
+  .main .useful p br {
+    display: none;
+  }
+  .main .useful p:last-child {
+    margin-bottom: 0;
+  }
+  .main .useful__image--image {
+    width: 100%;
+  }
+  .main .useful .btn {
+    margin-top: 30px;
+  }
+  .main .curator h3.title {
+    margin-bottom: 40px;
+  }
+  .main .curator .column:first-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .main .curator .column:last-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 70%;
+            flex: 0 0 70%;
+    max-width: 70%;
+  }
+  .main .curator .bq-description br {
+    display: none;
+  }
+  .main .curator__image--image {
+    width: 100%;
+  }
+  .main .reviews .swiper-wrapper {
+    margin-top: 30px;
+  }
+  .main .reviews .swiper-slide {
+    max-width: 990px;
+    background-position: center center;
+    height: auto;
+  }
+  .main .reviews .swiper-slide .slide__item {
+    padding: 50px 15px;
+  }
+  .main .reviews .swiper-slide .slide__item--image {
+    width: 150px;
+    height: 155px;
+  }
+  .main .reviews .flexbox .column-left {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 38%;
+            flex: 0 0 38%;
+    max-width: 38%;
+  }
+  .main .reviews .flexbox .column-left p {
+    padding: 0px 15px 10px;
+  }
+  .main .reviews .flexbox .column-right {
+    margin-top: 55px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%;
+    max-width: 60%;
+  }
+  h1.title {
+    font-size: 60px;
+    line-height: 100%;
+  }
+  h2.title {
+    font-size: 40px;
+    line-height: 38px;
+  }
+  h3.title {
+    font-size: 40px;
+    line-height: 38px;
+  }
+  h4.title {
+    font-size: 32px;
+    line-height: 130%;
+  }
+  h4.subheader {
+    font-size: 28px;
+    line-height: 27px;
+  }
+  footer.footer .logo {
+    margin-top: -20px;
+  }
+  footer.footer .info {
+    padding: 52px 0 40px;
+  }
+  footer.footer .department {
+    margin-top: 32px;
+  }
+  footer.footer .location {
+    max-width: 272px;
+  }
+  footer.footer .copyright {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
+/*# sourceMappingURL=response_1279.css.map */

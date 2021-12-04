@@ -1,0 +1,174 @@
+@media (max-width: 1023px) {
+  .header > .flexbox {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .header .logo-page {
+    margin-right: 0;
+  }
+  .header .logo-page img {
+    width: 160px;
+  }
+  .header .logo-home .icon {
+    width: 190px;
+    height: 50px;
+  }
+  .header .department-logo {
+    padding: 0 15px;
+  }
+  .header .department-logo img {
+    width: 140px;
+  }
+  .header-right {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .header-right--image img {
+    margin-left: -25%;
+    width: 500px;
+    height: 600px;
+  }
+  .main .home-block {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+    height: 480px;
+  }
+  .main .home-block-text h1.title {
+    font-size: 56px;
+  }
+  .main .home-block .bq-description {
+    font-size: 18px;
+  }
+  .main .home-right {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .main .home-right--image img {
+    margin-left: -33%;
+    width: 860px;
+    height: 590px;
+  }
+  .main .about__image--image {
+    width: 230px;
+  }
+  .main .benefit {
+    margin-bottom: 100px;
+  }
+  .main .benefit .cont {
+    overflow: hidden;
+  }
+  .main .benefit .flexbox {
+    padding: 0px 15px 17px;
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-bottom: 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .main .benefit .flexbox::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+  }
+  .main .benefit .flexbox .column {
+    margin-right: 105px;
+  }
+  .main .benefit .flexbox .column:last-child {
+    margin-right: 0;
+  }
+  .main .course br {
+    display: none;
+  }
+  .main .course .column-left {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-bottom: 13px;
+  }
+  .main .course .column-image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .main .course .column-right {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 0;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .main .course__image--image {
+    max-width: 240px;
+  }
+  .main .symptoms-footer--text {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main .curator .flexbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .curator .column:last-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .main .reviews .swiper-slide {
+    max-width: 700px;
+  }
+  .main .reviews .swiper-slide .slide__item-avatar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+  }
+  .main .reviews .swiper-slide .slide__item--image {
+    margin-right: 0;
+  }
+  .main .reviews .swiper-slide .slide__item p {
+    padding-left: 0;
+  }
+  .main .reviews .swiper-slide .slide__item .column-right {
+    margin-top: 20px;
+  }
+  .main .registration img {
+    width: 100%;
+  }
+  footer.footer .location {
+    font-size: 14px;
+    max-width: 256px;
+  }
+}
+/*# sourceMappingURL=response_1023.css.map */

@@ -1,0 +1,33 @@
+/* Begin - Mossport */
+@font-face {
+    font-family: 'Mossport';
+    font-weight: normal;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Mossport.woff') format('woff'),
+    url('../fonts/Mossport.ttf') format('truetype');
+}
+/* End - Mossport */
+
+/* Begin - GothamPro */
+@font-face {
+    font-family: 'GothamPro';
+    font-weight: normal;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/GothamPro.woff') format('woff'),
+    url('../fonts/GothamPro.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    font-weight: 700;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/GothamPro-Bold.woff') format('woff'),
+    url('../fonts/GothamPro-Bold.ttf') format('truetype');
+}
+/* End - GothamPro */
